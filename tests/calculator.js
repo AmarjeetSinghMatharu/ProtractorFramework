@@ -9,7 +9,7 @@ describe('demo calculator tests', function(){
         homepage.enterSecondNumber('10');
         homepage.clickGo();
         homepage.verifyResult('15');
-        browser.sleep(4000)        
+        browser.sleep(3000)        
         
 
         // Method -2
@@ -51,7 +51,7 @@ describe('demo calculator tests', function(){
         homepage.enterSecondNumber('10');
         homepage.clickGo1();
         homepage.verifyResult('15');
-        browser.sleep(4000)           
+        browser.sleep(3000)           
 
     }); 
 
